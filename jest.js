@@ -17,8 +17,7 @@ try {
   hasTestingLibrary = [
     '@testing-library/dom',
     '@testing-library/react',
-    '@testing-library/angular',
-    '@testing-library/vue',
+    '@testing-library/preact',
   ].some(dependency => allDeps.includes(dependency))
 } catch (error) {
   // ignore error

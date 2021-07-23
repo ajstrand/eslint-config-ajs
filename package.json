@@ -1,7 +1,7 @@
 {
-  "name": "eslint-config-kentcdodds",
+  "name": "eslint-config-ajs",
   "version": "0.0.0-semantically-released",
-  "description": "ESLint rules according to kentcdodds' personal preference",
+  "description": "ESLint rules collection",
   "main": "index.js",
   "scripts": {
     "find-new-rules": "npm-run-all --parallel find-new-rules:*",
@@ -16,24 +16,23 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/kentcdodds/eslint-config-kentcdodds"
+    "url": "add me"
   },
   "keywords": [
     "eslint",
     "eslintconfig",
     "config",
-    "kentcdodds",
     "javascript",
     "styleguide"
   ],
-  "author": "Kent C. Dodds <me@kentcdodds.com> (https://kentcdodds.com)",
+  "author": "me",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kentcdodds/eslint-config-kentcdodds/issues"
+    "url": "add me"
   },
-  "homepage": "https://github.com/kentcdodds/eslint-config-kentcdodds#readme",
+  "homepage": "add me",
   "dependencies": {
-    "@babel/core": "^7.14.6",
+    "@babel/core": "^7.14.8",
     "@babel/eslint-parser": "^7.14.7",
     "@babel/eslint-plugin": "^7.14.5",
     "@babel/preset-react": "^7.14.5",
@@ -41,23 +40,25 @@
     "@typescript-eslint/parser": "^4.28.4",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.23.4",
-    "eslint-plugin-jest": "^24.3.6",
+    "eslint-plugin-jest": "^24.4.0",
     "eslint-plugin-jest-dom": "^3.9.0",
     "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-preact": "^0.1.0",
     "eslint-plugin-react": "^7.24.0",
     "eslint-plugin-react-hooks": "^4.2.0",
-    "eslint-plugin-testing-library": "^4.9.1",
+    "eslint-plugin-testing-library": "^4.10.1",
     "read-pkg-up": "^7.0.1",
     "semver": "^7.3.5"
   },
   "devDependencies": {
-    "@testing-library/dom": "^7.31.2",
+    "@testing-library/dom": "^8.1.0",
     "@testing-library/jest-dom": "^5.14.1",
-    "eslint": "^7.31.0",
+    "eslint": "^7.5.0",
     "eslint-find-rules": "^3.6.1",
     "husky": "^6.0.0",
     "jest": "^27.0.6",
     "npm-run-all": "^4.1.5",
+    "preact": "^10.5.14",
     "prettier": "^2.3.2",
     "pretty-quick": "^3.1.1",
     "react": "^17.0.2",
@@ -69,6 +70,12 @@
   },
   "peerDependenciesMeta": {
     "typescript": {
+      "optional": true
+    },
+    "react": {
+      "optional": true
+    },
+    "preact": {
       "optional": true
     }
   },
