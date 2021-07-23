@@ -1,3 +1,3 @@
-// module.exports = {
-//   extends: ['../../../index.js', '../../../jest.js'],
-// }
+module.exports = {
+  extends: ['../../../index.js', '../../../jest.js'],
+}
