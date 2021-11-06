@@ -1,7 +1,7 @@
 <div align="center">
-<h1>eslint-config-kentcdodds</h1>
-
-<p>ESLint rules for all of my personal projects. Feel free to use these conventions :-)</p>
+<h1>eslint-config-ajs</h1>
+  <p>this is a fork</p>
+<p>common ESLint rule config</p>
 </div>
 
 ---
@@ -39,7 +39,7 @@ This module is distributed via [npm][npm] which is bundled with [node][node] and
 should be installed as one of your project's `devDependencies`:
 
 ```
-npm install --save-dev eslint-config-kentcdodds
+npm install --save-dev eslint-config-ajs
 ```
 
 This library has a required `peerDependencies` listing for [`eslint`][eslint]
@@ -50,7 +50,7 @@ Then add the extends to your `.eslintrc.js`:
 
 ```javascript
 module.exports = {
-  extends: 'kentcdodds',
+  extends: 'ajs',
   rules: {
     // your overrides
   },
@@ -114,11 +114,11 @@ for it.
 ```javascript
 module.exports = {
   extends: [
-    'kentcdodds/possible-errors',
-    'kentcdodds/best-practices',
-    'kentcdodds/es6/possible-errors',
-    'kentcdodds/import',
-    'kentcdodds/jest',
+    'ajs/possible-errors',
+    'ajs/best-practices',
+    'ajs/es6/possible-errors',
+    'ajs/import',
+    'ajs/jest',
   ],
   rules: {
     /* custom rules */
